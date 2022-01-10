@@ -10,6 +10,18 @@
     align-items: center;
     flex-direction: column;
     padding: 100px;
+
+    h1 {
+      color: $primary-color;
+    }
+
+    p {
+      font-weight: 150;
+    }
+    p2 {
+      color: $primary-color;
+      font-weight: 700;
+    }
   }
   .bullet-point-group {
     display: flex;

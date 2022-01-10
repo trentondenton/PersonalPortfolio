@@ -15,23 +15,21 @@ export default function() {
         />
 
       <div className="right-column">
-        Maecenas faucibus mollis interdum. Integer posuere erat a ante venenatis
-        dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis.
-        Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-        Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget
-        risus varius blandit sit amet non magna. Morbi leo risus, porta ac
-        consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida
-        at eget metus. Donec sed odio dui. Cras mattis consectetur purus sit
-        amet fermentum. Etiam porta sem malesuada magna mollis euismod. Nulla
-        vitae elit libero, a pharetra augue. Aenean eu leo quam. Pellentesque
-        ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non
-        commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
-        elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur
-        et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-        commodo cursus magna, vel scelerisque nisl consectetur et. Nullam quis
-        risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac
-        consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis
-        euismod semper.
+       <h1>Hello! Thank you for visiting.</h1>
+       <p>My name is Trenton. I'm on the path to becoming a software developer. I am currently enrolled
+         in Devry University working towards my Bachelor's in Computer Information Systems with a focus
+         of Software Development.
+        </p>
+        <p>
+          I have experience in Python, Javascript, C++, HMTL/CSS/SCSS, MySQL, and many libraries for most
+          of these languages. I worked in nursing for 8 years and after the intital COVID-19 pandemic
+          began I decided to persue a career in a field I enjoy. I have also attended a coding bootcamp
+          provided by Bottega University (DevCamp) through the Kansas Rural & Remote Program. Please feel
+          free to browse the app. The blog page has updates on my journey this far. I look forward
+          to hearing from you! If you have any questions please see the Contact page to reach out.
+        </p>
+        <p2>Trenton D. Denton</p2>
+       
       </div>
     </div>
   );
