@@ -1,0 +1,35 @@
+.blog-form-wrapper {
+  @include base-grid();
+  grid-template-columns: 1fr;
+  padding: 42px;
+
+  @include input-element();
+  input {
+    margin-bottom: 0px;
+  }
+  
+  .image-uploaders {
+    @include base-grid();
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 25%;
+
+    .image-removal-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      a {
+        font-weight: 900;
+        font-size: 32px;
+        color: $primary-color;
+        cursor: pointer;
+
+        &:hover {
+          transition: fade-in-out;
+          color: $warning;
+        }
+      }
+    }
+  }
+}
