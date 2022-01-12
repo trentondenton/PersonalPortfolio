@@ -12,3 +12,36 @@
     width: 100%;
   }
 }
+
+//MOBILE NAVIGATION ADD RULES
+@media (max-width: 38em) {
+  .homepage-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 28px);
+    width: 100vw;
+  }
+  
+  .portfolio-items-wrapper, .portfolio-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100vh - 28px);
+    width: 100vw;
+  }
+  .portfolio-img-background div {
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100vh - 28px);
+    width: 100vw;
+  }
+
+  .img-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: calc(100vh - 28px);
+    width: 50vw;
+  }
+
+}

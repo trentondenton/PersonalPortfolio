@@ -75,3 +75,19 @@
     }
   }
 }
+
+//MOBILE BLOG - ADD RULES
+@media (max-width: 38em) {
+  .blog-container {
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: flex-start;
+    width: calc(100vw - 10px);
+  }
+
+  .elipses-style {
+    display: flex;
+    width: calc(100vw - 10px);
+  }
+}

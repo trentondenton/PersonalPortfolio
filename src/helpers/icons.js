@@ -13,7 +13,8 @@ import {
     faMapMarkedAlt,
     faLock,
     faTimes,
-    faChevronCircleDown
+    faChevronCircleDown,
+    faBars
 } from "@fortawesome/free-solid-svg-icons";
 
 const Icons = () => {
@@ -29,7 +30,8 @@ const Icons = () => {
         faMapMarkedAlt,
         faLock,
         faTimes,
-        faChevronCircleDown
+        faChevronCircleDown,
+        faBars,
         );
 };
 
