@@ -31,3 +31,20 @@
     }
   }
 }
+@media (max-width: 38em) {
+  .auth-page-wrapper {
+    display: flex;
+
+    .left-column {
+      display: none;
+    }
+
+    .right-column {
+      display: flex;
+      align-items: flex-start;
+      padding: 0;
+      font-size: 12px;
+      max-width: calc(100vw - 10px);
+    }
+  }
+}

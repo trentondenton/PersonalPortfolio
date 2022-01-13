@@ -84,10 +84,31 @@
     padding-right: 5px;
     align-items: flex-start;
     width: calc(100vw - 10px);
+
+    .elipses-style {
+      display: flex;
+      width: calc(100vw - 10px);
+      font-size: 11.5px;
+    }
+    
+    .content {
+      display: flex;
+      flex-direction: column;
+      width: calc(100vw - 10px);
+      align-items: flex-start;
+    }
   }
 
-  .elipses-style {
+  .content-container {
     display: flex;
-    width: calc(100vw - 10px);
+    max-width: calc(100vw - 10px);
+    a {
+      font-size: 11px;
+    }
+    
+  }
+  .featured-image-wrapper {
+    display: flex;
+    max-width: calc(100vw - 10px);
   }
 }
