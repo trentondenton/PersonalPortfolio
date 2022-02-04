@@ -299,7 +299,7 @@ export default class PortfolioForm extends Component {
 
           </div>
 
-          <div classname="save-btn">
+          <div className="save-btn">
             <button className="btn" type="submit">Save</button>
           </div>
         </form>

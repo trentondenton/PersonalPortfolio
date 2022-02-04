@@ -80,7 +80,10 @@ class NavigationContainer extends Component {
             <a onClick={this.handleSignOut}>
               <FontAwesomeIcon icon="sign-out-alt" />
             </a>
-          ) : null}
+          ) : 
+          <a href="/auth">
+            <FontAwesomeIcon icon="sign-in-alt" />
+          </a>}
         </div>
       </div>
     );

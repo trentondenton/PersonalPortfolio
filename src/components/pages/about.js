@@ -28,7 +28,7 @@ export default function() {
           free to browse the app. The blog page has updates on my journey this far. I look forward
           to hearing from you! If you have any questions please see the Contact page to reach out.
         </p>
-        <p2>Trenton D. Denton</p2>
+        <p className="p2">Trenton D. Denton</p>
        
       </div>
     </div>

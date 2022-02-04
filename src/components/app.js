@@ -14,6 +14,7 @@ import PortfolioDetail from "./portfolio/portfolio-detail";
 import Auth from "./pages/auth";
 import NoMatch from "./pages/no-match";
 import Icons from "../helpers/icons";
+import Slideshow from "./pages/slideshow";
 
 
 
@@ -122,6 +123,7 @@ export default class App extends Component {
 
               <Route path="/about-me" component={About} />
               <Route path="/contact" component={Contact} />
+              <Route path="/slideshow" component={Slideshow} />
               
               <Route 
                 path="/blog" 
