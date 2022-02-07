@@ -3,6 +3,9 @@
 @import "./mixins.scss";
 @import "./base.scss";
 
+//Home Style
+@import "./home.scss";
+
 // Etc Styles
 @import "./modals.scss";
 @import "./react-draft-wysiwyg.scss";
@@ -15,7 +18,7 @@
 
 // Nav Styles
 @import "./navigation.scss";
-@import "./home.scss";
+
 
 // Portfolio Styles
 @import "./portfolio.scss";

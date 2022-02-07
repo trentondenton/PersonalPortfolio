@@ -14,16 +14,14 @@
     }
 
     .img-text-wrapper {
+      display: grid;
       position: absolute;
       top: 0;
-      display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
       height: 100%;
+      width: 33.33vw;
       text-align: center;
-      padding-left: 100px;
-      padding-right: 100px;
 
       .subtitle {
         transition: 1s ease-in-out;
@@ -36,10 +34,18 @@
       font-weight: 400;
     }
 
-    .logo-wrapper img {
-      width: 50%;
-      margin-bottom: 20px;
-    }
+    .logo-wrapper {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+        img {
+          width: 100px;
+          max-width: 33.33vw;
+          margin-bottom: 20px;
+        }
+      }
   }
 }
 
