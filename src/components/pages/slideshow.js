@@ -89,7 +89,6 @@ class Slideshow extends Component {
             "Fundamentals of Information Security")}>
             SEC 285
           </button>
-          https://docs.google.com/presentation/d/14I45OShHTkDW9gTnl1o9RPdUvW7_ilJJjXgXwhKgvr4/edit?usp=sharing
 
           <button id="toggle" onClick={() => this.updateLink(
             "https://docs.google.com/presentation/d/14I45OShHTkDW9gTnl1o9RPdUvW7_ilJJjXgXwhKgvr4/edit?usp=sharing",
