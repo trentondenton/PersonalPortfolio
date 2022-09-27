@@ -1,12 +1,13 @@
 .homepage-wrapper {
   display: grid;
   grid-template-columns: 1fr;
+  background-color: $background-color;
 
   .filter-links {
     display: flex;
     justify-content: center;
   }
-  
+
   .btn {
     @include base-btn;
     width: 100%;

@@ -32,8 +32,7 @@ export default class BlogForm extends Component {
   deleteImage(imageType) {
     axios
       .delete(
-        `https://api.devcamp.space/portfolio/delete-portfolio-blog-image/${
-          this.props.blog.id
+        `https://api.devcamp.space/portfolio/delete-portfolio-blog-image/${this.props.blog.id
         }?image_type=${imageType}`,
         { withCredentials: true }
       )
@@ -45,7 +44,7 @@ export default class BlogForm extends Component {
       });
   }
 
-  componentWillMount() {
+  componentDidMount() {
     if (this.props.editMode) {
       this.setState({
         id: this.props.blog.id,
@@ -196,7 +195,7 @@ export default class BlogForm extends Component {
           )}
         </div>
 
-        <div classname="save-btn">
+        <div className="save-btn">
           <button className="btn">Save</button>
         </div>
       </form>

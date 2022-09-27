@@ -89,8 +89,7 @@ class Blog extends Component {
 
     axios
       .get(
-        `https://tdenton.devcamp.space/portfolio/portfolio_blogs?page=${
-          this.state.currentPage
+        `https://tdenton.devcamp.space/portfolio/portfolio_blogs?page=${this.state.currentPage
         }`,
         {
           withCredentials: true
@@ -108,7 +107,7 @@ class Blog extends Component {
       });
   }
 
-  componentWillMount() {
+  componentDidMount() {
     this.getBlogItems();
   }
 
