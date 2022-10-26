@@ -907,13 +907,12 @@
 }
 
 .rdw-suggestion-option-active {
-  background-color: #f1f1f1;
+  background-color: $primary-color;
 }
 
 .rdw-hashtag-link {
   text-decoration: none;
   color: #1236ff;
-  background-color: #f0fbff;
   padding: 1px 2px;
   border-radius: 2px;
 }
@@ -1034,7 +1033,7 @@
 }
 
 .DraftEditor-editorContainer {
-  background-color: $background-color;
+  background-color: rgb(255, 255, 255);
   border-left: 0.1px solid transparent;
   position: relative;
   z-index: 1;
